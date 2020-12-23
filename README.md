@@ -7,4 +7,4 @@ Step 2: Run this command to start `mvn spring-boot:run`
 * For refrash project after propertics/yml file change in [github repository](https://github.com/monirozzaman/spring-cloud-config-ymls)<br>
 `POST http://localhost:2222/actuator/refresh`<br>
 * For test changed out<br>
-`POST http://localhost:2222`
+`GET http://localhost:2222`
