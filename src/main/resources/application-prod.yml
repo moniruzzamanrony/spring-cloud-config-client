@@ -1,0 +1,2 @@
+wellcome:
+  mgs: application-prod.yml @ client

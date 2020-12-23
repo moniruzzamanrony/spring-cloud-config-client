@@ -1,0 +1,12 @@
+server:
+  port: 2222
+spring:
+  application:
+    name: CloudConfigClint
+wellcome:
+  mgs: application.yml @ client
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
